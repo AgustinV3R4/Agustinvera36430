@@ -1,0 +1,240 @@
+/* inicio */
+.header{
+margin: 0;
+padding: 0;
+   
+    
+}
+.header__iteam{
+list-style: none;
+display:flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+float: left;
+    
+    
+}
+.header__anchor:hover{
+color: red;
+
+}
+
+.header__anchor{
+text-decoration: none;  
+color: white;
+margin: 0;
+padding: 10px 100px;
+background-color: black;
+
+
+
+
+
+}
+
+.h1 {
+    color: rgb(204, 26, 26);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.p  {
+    color: red;
+    font-size: 3em;
+    padding: 0em;
+    margin: 0em;
+    line-height: 2;
+}
+.lr__container{
+ display: flex;
+ 
+
+}
+.lr{
+color:white;font-family: 'Playfair Display', serif;
+padding: 2em;
+margin: 2em;
+}
+
+
+body{
+background: rgb(0,0,0);
+background: radial-gradient(circle, 
+rgba(0,0,0,1) 
+ 27%, rgba(13,7,47,1) 68%);
+}
+
+
+
+.header__logocontenedor{
+margin: 0;
+padding: 0;
+background-color: black;
+height: 150px;
+width: 150px;
+    
+}
+
+
+
+
+/* inicio */
+
+
+/*Libros*/
+.ve{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.ev:hover{
+    color: red;
+}
+.ev{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 10px 100px;
+    background-color: black;
+    display: inline-block;
+    float: left; 
+}
+.lvim{
+display: inline-block;
+margin-top: 40px;
+padding: 5em 100px;
+}
+.as{
+ margin-right: 2em;
+ width: 200px;
+ height: 200px;
+}
+
+.as2{
+margin-right: 2em;
+width: 200px;
+height: 200px;  
+}
+.as3{
+margin-right: 2em;
+width: 200px;
+height: 200px;
+}
+.as4{
+margin-right: 2em;
+width: 200px;
+height: 200px;
+}
+/*Libros*/
+
+/*Relatos*/
+.ep{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .pe:hover{
+        color: red;
+    }
+    .pe{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 10px 100px;
+    background-color: black;
+    display: inline-block;
+    float: left; 
+    }
+   .vi1{
+   display: grid;
+   width: 350px;
+   height: 200px;
+   padding: 5em;
+   margin: 2em;
+    
+   
+   } 
+/*Relatos*/
+
+/*Peliculas*/
+.re{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.erre:hover{
+    color: red;
+}
+.erre{
+text-decoration: none;
+color: white;
+margin: 0;
+padding: 10px 100px;
+background-color: black;
+display: inline-block;
+float: left;
+}
+/*Peliculas*/
+
+/* contacto*/
+.iteam__h{
+list-style: none;  
+color: white;
+text-decoration: none;
+margin: 0;
+padding: 0;
+        
+}
+.iteam__h:hover{
+color: red;
+}
+.it{
+ margin: 0em;
+padding: 10px 100px;
+background-color: black;
+display: inline-block;
+float: left; 
+}
+.h2form{
+display:inline-block;    
+color: white;font-family: 'Playfair Display', serif;
+    
+    
+}
+.h2form:hover{
+    color: red;
+}
+.form{
+display:inline-block;
+margin: 0;
+padding: 1em;
+color: red;
+    
+    
+ }
+/*contacto*/
+
+.border{
+    border: 1px solid green
+}
+#grilla{
+     display: grid;
+     grid-template-rows: 100px 1fr 1fr 74px ;
+     grid-template-columns: 20% auto 15%;
+     height: 100vh;
+}
+
+
+
+/* grid*/
+@media screen and (max-width:768px){
+    
+}
+.trp{
+    background-color: yellow;
+}
+.trpp{
+    background-color: tomato;
+}
