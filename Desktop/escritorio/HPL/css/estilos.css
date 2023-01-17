@@ -57,6 +57,9 @@ color:white;font-family: 'Playfair Display', serif;
 padding: 2em;
 margin: 2em;
 }
+.lr:hover{
+    color: red;
+}
 
 
 body{
@@ -69,11 +72,10 @@ rgba(0,0,0,1)
 
 
 .header__logocontenedor{
-margin: 0;
-padding: 0;
-background-color: black;
-height: 150px;
-width: 150px;
+margin;0;
+padding: 0px;
+height: 200px;
+width: 400px;
     
 }
 
@@ -101,32 +103,28 @@ padding: 0;
     display: inline-block;
     float: left; 
 }
-.lvim{
-display: inline-block;
-margin-top: 40px;
-padding: 5em 100px;
-}
-.as{
- margin-right: 2em;
- width: 200px;
- height: 200px;
+.imglb{
+    display: grid;
+    grid-template-columns: repeat(2,150px 1fr);
+    grid-template-rows: repeat(2,150px 1fr);
+    grid-gap: 100px;
+    grid-area: unset;
+    float: left;
+    padding: 1em;
+    margin: 1em;
+    /*border: 1em solid #000;*/
 }
 
-.as2{
-margin-right: 2em;
+.as{
 width: 200px;
-height: 200px;  
+ height: 200px;
+ object-fit: contain;
+ /*border: 1px solid rgb(255, 0, 0);*/
+ 
 }
-.as3{
-margin-right: 2em;
-width: 200px;
-height: 200px;
-}
-.as4{
-margin-right: 2em;
-width: 200px;
-height: 200px;
-}
+
+
+
 /*Libros*/
 
 /*Relatos*/
@@ -148,14 +146,18 @@ height: 200px;
     float: left; 
     }
    .vi1{
-   display: grid;
-   width: 350px;
+   width: 500px;
    height: 200px;
    padding: 5em;
-   margin: 2em;
+   
     
    
    } 
+   .v2{
+    color: white;
+    margin: 3em;
+    
+   }
 /*Relatos*/
 
 /*Peliculas*/
@@ -230,6 +232,10 @@ color: red;
 
 /* grid*/
 @media screen and (max-width:768px){
+ .imglb{
+    flex-direction: row;
+    flex-wrap: wrap;
+ }   
     
 }
 .trp{
@@ -238,3 +244,12 @@ color: red;
 .trpp{
     background-color: tomato;
 }
+
+    
+
+
+    /*
+git remote add origin https://github.com/AgustinV3R4/Agustinvera36430.git
+git branch -M master
+git push -u origin master
+/*
